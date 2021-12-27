@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --yellow : #EAC926;
+    --blue : #03264C;
+    --lightBlue : #1259C3;
+    --darkGrey : #666;
+    --lightGrey : #ebebeb;
+    --green : #39b54a;
+    /* Font*/
+    --font-primary : 'Roboto', sans serif;
+        /* Font size */
+        --paragraph : 12px;
+        --title : 24px;
+        --prices : 18px;
+        --descriptions : 16px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+.banner {
+    display:none ;
+}
+/*********
+* header**
+*********/
+
+header {
+    background-color: var(--yellow);
+    padding-bottom: 20px;
+}
+header .burger-menu {
+    width: 30px;
+    height: 35px;
+    background-color: var(--lightblue);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+.logo {
+    padding-top: 25px;
+    padding-left: 25px;
+    width: 150px;
+}
+ header {
+     margin-top: 25px;
+     margin-bottom: 10px;
+     
+}
+.banner {
+    display: none;
+}
+.mb-15 {
+    padding-bottom: 15px;
+}
+
+
+/*********
+* footer*/
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+footer i {
+    font-size: 2em;
+    color: var(--lightBlue);
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: var(--paragraph);
+    padding: 0px 30px 30px 30px;
+}
+footer h5 {
+    font-size: var(--descriptions);
+}
